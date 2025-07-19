@@ -5,7 +5,6 @@ def SquaredEuclideanDistance(data1, data2):
     return distance
 
 def main():
-
     dimn = 2
     data1 = np.random.choice(np.arange(1,10), (2,dimn))
     data2 = np.random.choice(np.arange(1,10), (2,dimn))
