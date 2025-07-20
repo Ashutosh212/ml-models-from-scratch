@@ -9,3 +9,17 @@ This repository contains implementations of fundamental machine learning algorit
 - Logistic Regression
 - Decision Trees 
 - Neural Networks 
+
+### Linear Regression Evaluation
+
+#### Dataset: Single Feature (Attendance Hours → Final Marks)
+| Model                    | MSE      | R² Score |
+|--------------------------|----------|----------|
+| Custom Linear Regression | 0.1725   | 0.8234   |
+| Sklearn SGDRegressor     | 0.1725   | 0.8233   |
+
+#### Dataset: Multiple Features — Graduate Admission Prediction
+| Model                    | MSE      | R² Score |
+|--------------------------|----------|----------|
+| Custom Linear Regression | 0.5535   | 0.5652   |
+| Sklearn SGDRegressor     | 0.2349   | 0.8155   |

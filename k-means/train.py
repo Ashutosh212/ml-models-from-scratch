@@ -1,6 +1,6 @@
 import pandas as pd
 import numpy as np
-from .model import KMeans
+from model import KMeans
 
 def train_model(data, clusters = 3):
     
