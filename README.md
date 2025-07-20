@@ -5,7 +5,7 @@ This repository contains implementations of fundamental machine learning algorit
 ## Implemented Algorithms
 
 - ☑️ K-Means Clustering
-- Linear Regression
+- ☑️ Linear Regression
 - Logistic Regression
 - Decision Trees 
 - Neural Networks 
