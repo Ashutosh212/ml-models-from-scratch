@@ -8,6 +8,9 @@ This repository contains implementations of fundamental machine learning algorit
 - ☑️ Linear Regression
 - Logistic Regression
 - Decision Trees 
+- Support Vector Machine
+- SVD
+- PCA
 - Neural Networks 
 
 ### Linear Regression Evaluation
@@ -23,3 +26,11 @@ This repository contains implementations of fundamental machine learning algorit
 |--------------------------|----------|----------|
 | Custom Linear Regression | 0.5535   | 0.5652   |
 | Sklearn SGDRegressor     | 0.2349   | 0.8155   |
+
+### Logistic Regression Evaluation (User Metadata -> Purchase Prediction)
+
+| Model                      | MSE                 | R² Score |
+|----------------------------|---------------------|----------|
+| Custom Logistic Regression | 3.13 × 10⁻³⁰        | 1.0      |
+| Sklearn Logistic Regression| 0.0                 | 1.0      |
+

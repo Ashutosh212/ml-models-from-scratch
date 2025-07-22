@@ -16,14 +16,8 @@ class GradientDescentLR:
             b_prev = self.b
 
             for i in range(0, samples, batch_size):
-                # print(X[i:i+batch_size].T.shape)
-                # print(self.m.shape)
                 y_pred = self.m @ X[i:i+batch_size].T + self.b
-                # print(y_pred.shape)
-                # print(y[i:i+batch_size].reshape(batch_size, -1).shape)
                 error = y[i:i+batch_size].reshape(-1, batch_size) - y_pred
-                # print(error.shape)
-                # print(X[i:i+batch_size].shape)
 
                 step_size_m = -2 * np.mean(error @ X[i:i+batch_size])
                 step_size_b = -2 * np.mean(error)
